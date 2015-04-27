@@ -1,0 +1,38 @@
+{
+  "name": "pdf-markdown-annotator",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azu/pdf-markdown-annotator.git"
+  },
+  "author": "azu",
+  "email": "azuciao@gmail.com",
+  "homepage": "https://github.com/azu/pdf-markdown-annotator",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azu/pdf-markdown-annotator/issues"
+  },
+  "version": "1.0.0",
+  "description": "pdf annotator + markdown editor",
+  "main": "index.html",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "markdown",
+    "pdf",
+    "annotation"
+  ],
+  "dependencies": {
+    "codemirror": "^5.2.0",
+    "node-webkit-winstate": "^1.1.0",
+    "nw-normalize-menu": "^1.0.2",
+    "pdfjs-dist": "^1.1.86",
+    "react": "^0.13.2"
+  },
+  "devDependencies": {
+    "babel": "^5.1.13"
+  }
+}

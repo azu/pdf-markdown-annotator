@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="node_modules/nw-normalize-menu/nw-normalize-menu.js"></script>
+    <link href="css/index.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<script>
+    global.Element = Element;
+    global.document = window.document;
+    global.navigator = window.navigator;
+
+    if (!global.alreadyShowWindow) {
+        global.alreadyShowWindow = true;
+        var script = document.createElement("script");
+        script.src = "./node_modules/node-webkit-winstate/index.js";
+        document.body.appendChild(script);
+        require('nw.gui').Window.get().showDevTools();
+    }
+    require("./lib/index");
+</script>
+</body>
+</html>

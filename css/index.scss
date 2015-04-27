@@ -9,5 +9,7 @@ html, body {
   box-sizing: border-box;
 }
 
+@import "./components/App";
 @import "./components/PDFViewer";
+@import "./components/MarkdownEditor";
 @import "./layout/Applayout";

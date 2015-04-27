@@ -30,7 +30,8 @@
     "node-webkit-winstate": "^1.1.0",
     "nw-normalize-menu": "^1.0.2",
     "pdfjs-dist": "^1.1.86",
-    "react": "^0.13.2"
+    "react": "^0.13.2",
+    "react-code-mirror": "^3.0.4"
   },
   "devDependencies": {
     "babel": "^5.1.13"

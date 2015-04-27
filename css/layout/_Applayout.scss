@@ -1,8 +1,22 @@
+.App{
+  display: flex;
+}
 .PDFViewer-container {
-  width: 100%;
+  width: 50%;
   height: 100%;
   margin: 0;
   padding: 0;
   border: none;
   overflow: hidden;
+  flex: 7;
+}
+
+.MarkdownEditor-container {
+  width: 50%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  flex: 3;
 }

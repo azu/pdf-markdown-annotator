@@ -27,6 +27,7 @@
   ],
   "dependencies": {
     "codemirror": "^5.2.0",
+    "material-flux": "^1.2.0",
     "node-webkit-winstate": "^1.1.0",
     "nw-normalize-menu": "^1.0.2",
     "pdfjs-dist": "^1.1.86",

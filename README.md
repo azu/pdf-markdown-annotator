@@ -2,6 +2,8 @@
 
 This [NW.js](http://nwjs.io/ "NW.js") app is that PDF Viewer and Markdown annotation/Note tools.
 
+![screenshot](http://monosnap.com/image/2q6e1ZSzMrB5GoEpkKLXYfx77ppmGI.png)
+
 ## Installation
 
 - [ ] Describe the installation process

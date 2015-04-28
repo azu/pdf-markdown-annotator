@@ -3,6 +3,9 @@ language: node_js
 after_success:
 - npm install
 - "./_travis/build.sh"
+cache:
+  directories:
+    - node_modules
 deploy:
   provider: releases
   api_key:

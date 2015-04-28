@@ -7,15 +7,16 @@ This [NW.js](http://nwjs.io/ "NW.js") app is that PDF Viewer and Markdown annota
 
 ## Installation
 
-- [ ] Describe the installation process
+- [Download latest binary](https://github.com/azu/pdf-markdown-annotator/releases/latest)
+
+OS X, Windows, Linux support.
 
 ## Usage
 
-- [ ] Write usage instructions
-
-## Tests
-
-- [ ] Write How to Tests
+- Open PDF file
+- Open Markdown file
+- write note & save
+    - Automatically save
 
 ## Contributing
 

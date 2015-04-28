@@ -11,6 +11,14 @@ This [NW.js](http://nwjs.io/ "NW.js") app is that PDF Viewer and Markdown annota
 
 OS X, Windows, Linux support.
 
+## Feature
+
+- PDF Viewer using [pdf.js](https://github.com/mozilla/pdf.js)
+- Markdown memo using [CodeMirror](http://codemirror.net/)
+- Quote text from PDF
+
+![quote](http://monosnap.com/image/Iy9GhD9zYI43JAjPRpMU0DAcjrPxKr.png)
+
 ## Usage
 
 - Open PDF file

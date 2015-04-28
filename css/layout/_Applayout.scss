@@ -1,6 +1,7 @@
-.App{
+.App {
   display: flex;
 }
+
 .PDFViewer-container {
   width: 50%;
   height: 100%;
@@ -19,4 +20,10 @@
   border: none;
   overflow: hidden;
   flex: 3;
+}
+
+// MarkdownEditor flex layout
+.MarkdownEditor-container {
+  display: flex;
+  flex-flow: column;
 }

@@ -1,4 +1,5 @@
-# pdf-markdown-annotator
+# pdf-markdown-annotator [![Build Status](https://travis-ci.org/azu/pdf-markdown-annotator.svg?branch=master)](https://travis-ci.org/azu/pdf-markdown-annotator)
+
 
 This [NW.js](http://nwjs.io/ "NW.js") app is that PDF Viewer and Markdown annotation/Note tools.
 

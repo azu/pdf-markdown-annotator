@@ -27,6 +27,7 @@
   ],
   "dependencies": {
     "codemirror": "^5.2.0",
+    "font-awesome": "^4.3.0",
     "material-flux": "^1.2.0",
     "node-webkit-winstate": "^1.1.0",
     "nw-normalize-menu": "^1.0.2",

@@ -34,6 +34,10 @@ html, body {
 .MarkdownEditor .CodeMirror, .MarkdownEditor textarea {
   font-size: 20pt; }
 
+.MemoToolbar .fa::before {
+  margin-right: 0.5em;
+  margin-left: 0.2em; }
+
 .App {
   display: flex; }
 

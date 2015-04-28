@@ -64,5 +64,9 @@ html, body {
 .MarkdownEditor-container {
   display: flex;
   flex-flow: column; }
+  .MarkdownEditor-container .MarkdownEditorToolbar {
+    height: 1rem; }
+  .MarkdownEditor-container .MarkdownEditor {
+    height: calc(100% - 1rem); }
 
 /*# sourceMappingURL=index.css.map */

@@ -18,7 +18,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dist": "nwbuild -p 'win,osx,linux32,linux64' ./ -o ./build"
   },
   "keywords": [
     "markdown",
@@ -36,6 +36,7 @@
     "react-code-mirror": "^3.0.4"
   },
   "devDependencies": {
-    "babel": "^5.1.13"
+    "babel": "^5.1.13",
+    "node-webkit-builder": "^1.0.11"
   }
 }

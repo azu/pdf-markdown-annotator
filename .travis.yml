@@ -1,0 +1,20 @@
+sudo: false
+language: node_js
+after_success:
+- npm install
+- "./_travis/build.sh"
+deploy:
+  provider: releases
+  api_key:
+    secure: KJsSpFlo/4KwGNzwLuezz4lj7gC1Sb9An4naKEOi0/UnbTatj9X/o3mS+4JIp92n+QEeqy2c6D5s4V1VJ0HexFHbbLd0vyeon4uTN1jTICqU7LGO/eatA+XZi52kJV7GWPJlSCEki19t+ovQBeZP6MLWRytTTXAQiLwQqfsFS2E=
+   file:
+     - build/pdf-markdown-annotator-osx32.zip
+     - build/pdf-markdown-annotator-osx64.zip
+     - build/pdf-markdown-annotator-win32.zip
+     - build/pdf-markdown-annotator-win64.zip
+     - build/pdf-markdown-annotator-linux32.zip
+     - build/pdf-markdown-annotator-linux64.zip
+  on:
+    repo: azu/pdf-markdown-annotator
+    tags: true
+  skip_cleanup: true

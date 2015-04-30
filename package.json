@@ -18,6 +18,7 @@
     "test": "test"
   },
   "scripts": {
+    "build": "browserify -t babelify lib/index.js -o build.js",
     "dist": "nwbuild -p 'win,osx,linux32,linux64' ./ -o ./build"
   },
   "keywords": [
@@ -38,6 +39,8 @@
   },
   "devDependencies": {
     "babel": "^5.1.13",
+    "babelify": "^6.0.2",
+    "browserify": "^9.0.8",
     "node-webkit-builder": "^1.0.11"
   }
 }

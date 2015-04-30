@@ -19,12 +19,16 @@
     global.localStorage = window.localStorage;
     global.XMLHttpRequest = window.XMLHttpRequest;
 
+    require("babel/register")();
+
     if (!global.alreadyShowWindow) {
         global.alreadyShowWindow = true;
         var script = document.createElement("script");
         script.src = "./node_modules/node-webkit-winstate/index.js";
         document.body.appendChild(script);
-        require('nw.gui').Window.get().showDevTools();
+        if (process.env.NODE_ENV !== 'production') {
+            require('nw.gui').Window.get().showDevTools();
+        }
     }
     require("./lib/index");
 </script>

@@ -33,7 +33,8 @@
     "nw-normalize-menu": "^1.0.2",
     "pdfjs-dist": "^1.1.86",
     "react": "^0.13.2",
-    "react-code-mirror": "^3.0.4"
+    "react-code-mirror": "^3.0.4",
+    "react-remarkable": "https://github.com/azu/react-remarkable.git#update-react"
   },
   "devDependencies": {
     "babel": "^5.1.13",

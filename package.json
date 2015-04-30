@@ -35,7 +35,7 @@
     "pdfjs-dist": "^1.1.86",
     "react": "^0.13.2",
     "react-code-mirror": "^3.0.4",
-    "react-remarkable": "git://github.com:acdlite/react-remarkable.git"
+    "react-remarkable": "^1.1.0"
   },
   "devDependencies": {
     "babel": "^5.1.13",

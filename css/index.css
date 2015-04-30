@@ -35,7 +35,8 @@ html, body {
   font-size: 16px; }
 
 .MemoToolbar {
-  height: 1.2rem; }
+  height: 1.2rem;
+  background-color: white; }
   .MemoToolbar .fa::before {
     margin-right: 0.5em;
     margin-left: 0.2em; }
@@ -496,6 +497,8 @@ html, body {
   .MarkdownEditor-container .MarkdownEditorToolbar {
     height: 1rem; }
   .MarkdownEditor-container .MarkdownEditor {
+    height: calc(100% - 1rem); }
+  .MarkdownEditor-container .MarkdownPreview {
     height: calc(100% - 1rem); }
 
 /*# sourceMappingURL=index.css.map */

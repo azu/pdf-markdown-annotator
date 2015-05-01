@@ -30,7 +30,9 @@
             require('nw.gui').Window.get().showDevTools();
         }
     }
-    require("./lib/index");
+    window.addEventListener("load", function () {
+        require("./lib/index")();
+    });
 </script>
 </body>
 </html>

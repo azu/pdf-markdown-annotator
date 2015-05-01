@@ -18,7 +18,7 @@
     "test": "test"
   },
   "scripts": {
-    "build": "browserify -s bootstrap -t babelify lib/index.js -o build.js",
+    "build": "browserify -s bootstrap -t babelify lib/index.js -o dist/build.js",
     "dist": "nwbuild -p 'win,osx,linux32,linux64' ./ -o ./build"
   },
   "keywords": [

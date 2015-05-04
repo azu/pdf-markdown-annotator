@@ -26,6 +26,30 @@ OS X, Windows, Linux support.
 - write note & save
     - Automatically save
 
+### On Browser
+
+pdf-markdown-annotator work on Browser too!
+
+```
+npm run build
+# output dist/build.js
+```
+
+```html
+<script src="dist/build.js"></script>
+<script>
+    window.bootstrap({
+        // https://github.com/mozilla/pdf.js/blob/master/web/viewer.html URL
+        viewerPath: "../pdfjs/web/viewer.html",
+        // Display PDF URL
+        pdfURL: location.pathname + "Ecma-262_5.1.pdf",
+        // Display Markdown URL
+        markdownURL: location.pathname + "es5.md"
+    });
+</script>
+```
+
+
 ## Contributing
 
 1. Fork it!
